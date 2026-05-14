@@ -13,8 +13,8 @@ body {
    HEADER / NAVBAR
 ========================== */
 .header {
-  background-color: #111;
-  color: white;
+  background-color: #474545;
+  color: rgb(224, 224, 53);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,7 +26,7 @@ body {
 
 .logo h1 {
   margin: 0;
-  font-size: 22px;
+  font-size: 30x;
   letter-spacing: 1px;
 }
 
@@ -34,7 +34,7 @@ body {
   color: white;
   text-decoration: none;
   margin-left: 18px;
-  font-size: 15px;
+  font-size: 20px;
   padding: 8px 12px;
   border-radius: 6px;
   transition: 0.3s;
@@ -49,19 +49,22 @@ body {
 }
 
 .join-btn {
-  background-color: #e63946;
+  background-color: rgb(224, 224, 53);
   font-weight: bold;
 }
 
 .join-btn:hover {
-  background-color: #c92f3b;
+  background-color:  rgb(224, 224, 53);
 }
+
+
 
 /* ==========================
    PAGE HEADER (ABOUT TOP AREA)
 ========================== */
 .page-header {
-  background-color: #222;
+  background-color:#444 ;
+  
   color: white;
   text-align: center;
   padding: 55px 20px;
@@ -95,29 +98,13 @@ body {
   padding: 25px;
   margin-bottom: 30px;
   border-radius: 12px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px #474545;
 }
 
 .card h2 {
   margin-top: 0;
   font-size: 26px;
-  color: #111;
-}
-
-/* ==========================
-   VIDEO BOX
-========================== */
-.video-box {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-video {
-  width: 100%;
-  max-width: 800px;
-  border-radius: 12px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  color: black;
 }
 
 /* ==========================
@@ -137,7 +124,7 @@ video {
 }
 
 .capacity-table th {
-  background-color: #111;
+  background-color: #474545;
   color: white;
 }
 
@@ -165,12 +152,74 @@ video {
   transform: scale(1.03);
 }
 
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f2f2f2;
+}
+
+/* Small image */
+.small-image{
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.small-image:hover{
+    transform: scale(1.03);
+}
+
+/* Modal background */
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: 0.3s;
+}
+
+/* Open modal when targeted */
+.modal:target{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Large image */
+.modal img{
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 12px;
+    box-shadow: 0 0 20px black;
+}
+
+/* Close button */
+.close{
+    position: absolute;
+    top: 50px;
+    right: 35px;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+
 /* ==========================
    FOOTER
 ========================== */
 .footer {
-  background-color: #111;
-  color: white;
+  background-color: #474545;
+  color: rgb(224, 224, 53);
   text-align: center;
   padding: 15px;
   margin-top: 30px;

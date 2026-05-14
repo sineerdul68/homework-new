@@ -8,9 +8,9 @@ body {
 }
 
 /* HEADER */
-.header {
-  background-color: #111;
-  color: white;
+header {
+  background-color: #474545;
+  color: rgb(224, 224, 53);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,26 +19,24 @@ body {
   top: 0;
   z-index: 1000;
 }
-
 .logo h1 {
   margin: 0;
-  font-size: 22px;
+  font-size: 30x;
   letter-spacing: 1px;
 }
 
-/* NAVBAR */
 .navbar a {
   color: white;
   text-decoration: none;
   margin-left: 18px;
-  font-size: 15px;
+  font-size: 20px;
   padding: 8px 12px;
   border-radius: 6px;
   transition: 0.3s;
 }
 
 .navbar a:hover {
-  background-color: #333;
+  background-color: #444;
 }
 
 .navbar a.active {
@@ -46,17 +44,17 @@ body {
 }
 
 .join-btn {
-  background-color: #e63946;
+  background-color: rgb(224, 224, 53);
   font-weight: bold;
 }
 
 .join-btn:hover {
-  background-color: #c92f3b;
+  background-color:  rgb(224, 224, 53);
 }
 
 /* PAGE HEADER */
 .page-header {
-  background-color: #222;
+  background-color:#444;
   color: white;
   text-align: center;
   padding: 55px 20px;
@@ -94,7 +92,7 @@ body {
 
 .trainer-card img {
   width: 200px;
-  height: 200px;
+  height:400px;
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
@@ -104,6 +102,7 @@ body {
 .trainer-info h3 {
   margin: 0;
   font-size: 24px;
+  color:#474545;
 }
 
 .trainer-info p {
@@ -124,7 +123,7 @@ body {
   margin: 0 0 8px 0;
   font-weight: bold;
   font-size: 14px;
-  color: #444;
+  color: #474545;
 }
 
 audio {
@@ -133,8 +132,8 @@ audio {
 
 /* FOOTER */
 .footer {
-  background-color: #111;
-  color: white;
+  background-color: #444;
+  color: rgb(224, 224, 53) ;
   text-align: center;
   padding: 15px;
   margin-top: 30px;

@@ -9,8 +9,8 @@ body {
 
 /* HEADER */
 .header {
-  background-color: #111;
-  color: white;
+  background-color: #474545;
+  color: rgb(224, 224, 53);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,12 +46,12 @@ body {
 }
 
 .join-btn {
-  background-color: #e63946;
+  background-color: rgb(224, 224, 53);
   font-weight: bold;
 }
 
 .join-btn:hover {
-  background-color: #c92f3b;
+  background-color: rgb(224, 224, 53);
 }
 
 /* PAGE HEADER */
@@ -128,7 +128,7 @@ body {
   padding: 12px;
   border: none;
   border-radius: 8px;
-  background-color: #e63946;
+  background-color: rgb(224, 224, 53);
   color: white;
   font-size: 16px;
   font-weight: bold;
@@ -137,7 +137,7 @@ body {
 }
 
 .contact-form button:hover {
-  background-color: #c92f3b;
+  background-color: rgb(224, 224, 53);
 }
 
 /* INFO BOX */
@@ -146,7 +146,7 @@ body {
   padding: 25px;
   width: 350px;
   border-radius: 12px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 10px #474545;
 }
 
 .social-links {
