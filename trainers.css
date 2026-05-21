@@ -9,7 +9,7 @@ body {
 
 /* HEADER */
 header {
-  background-color: #474545;
+  background-color: #444;
   color: rgb(224, 224, 53);
   display: flex;
   justify-content: space-between;
@@ -77,11 +77,54 @@ header {
   margin: auto;
   padding: 40px 0;
 }
+.trainer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.trainer-extra {
+  background: linear-gradient(145deg, #ffffff, #f3f3f3);
+  padding: 18px;
+  border-radius: 16px;
+  width: 260px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border: 1px solid #e5e5e5;
+ 
+}
+
+.trainer-extra h4 {
+  margin-top: 0;
+  margin-bottom: 14px;
+  font-size: 20px;
+  color: #444;
+}
+
+.info-item {
+  margin-bottom: 14px;
+}
+
+.info-item span {
+  display: block;
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 4px;
+  letter-spacing: 0.5px;
+}
+
+.info-item p {
+  margin: 0;
+  font-size: 15px;
+  color: #333;
+  line-height: 1.5;
+}
 
 /* TRAINER CARD */
 .trainer-card {
   background-color: white;
   display: flex;
+  justify-content: space-around;
   gap: 25px;
   padding: 20px;
   margin-bottom: 25px;
@@ -102,7 +145,7 @@ header {
 .trainer-info h3 {
   margin: 0;
   font-size: 24px;
-  color:#474545;
+  color: #444;
 }
 
 .trainer-info p {
@@ -123,7 +166,7 @@ header {
   margin: 0 0 8px 0;
   font-weight: bold;
   font-size: 14px;
-  color: #474545;
+  color: #444;
 }
 
 audio {

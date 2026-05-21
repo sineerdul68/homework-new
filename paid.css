@@ -12,7 +12,7 @@ body {
    HEADER / NAVBAR
 ========================== */
 .header {
-  background-color: #474545;
+  background-color: #444;
   color: rgb(224, 224, 53);
   display: flex;
   justify-content: space-between;
