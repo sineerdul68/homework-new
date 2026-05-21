@@ -22,12 +22,14 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
+  
 }
 
 .logo h1 {
   margin: 0;
   font-size: 30x;
   letter-spacing: 1px;
+ 
 }
 
 .navbar a {
@@ -46,6 +48,8 @@ body {
 
 .navbar a.active {
   background-color: #444;
+  font-weight: bold;
+  color: rgb(224, 224, 53);
 }
 
 
@@ -94,7 +98,7 @@ body {
 /* YAZI + BUTON KATMANI */
 .overlay {
   position: absolute;
-  z-index: 2;   /* 🔥 KRİTİK NOKTA */
+  z-index: 2;   
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -120,7 +124,7 @@ body {
   border-radius: 8px;
 
   position: relative;
-  z-index: 3; /* 🔥 buton garanti en üst */
+  z-index: 3; 
 }
 
 .cta-btn:hover {

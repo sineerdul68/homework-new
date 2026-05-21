@@ -41,6 +41,8 @@ header {
 
 .navbar a.active {
   background-color: #444;
+  font-weight: bold;
+  color: rgb(224, 224, 53);
 }
 
 .join-btn {
@@ -90,8 +92,7 @@ header {
   border-radius: 16px;
   width: 260px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  border: 1px solid #e5e5e5;
- 
+  border: 2px solid rgb(224, 224, 53);
 }
 
 .trainer-extra h4 {
@@ -158,8 +159,8 @@ header {
   background-color: #f7f7f7;
   padding: 12px;
   border-radius: 10px;
-  border: 1px solid #ddd;
   max-width: 350px;
+  border: 2px solid rgb(224, 224, 53);
 }
 
 .voice-title {
